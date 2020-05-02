@@ -1,0 +1,201 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.before-navbar {
+	background: #e12639;
+}
+
+.before-navbar a {
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.before-navbar a:hover {
+	text-decoration: none;
+	color: rgb(59, 56, 56);
+}
+
+.before-navbar span {
+	margin: 10px 30px;
+}
+@media all and (max-width: 760px) {
+	.before-navbar a {
+	font-size: 13px;
+	letter-spacing: 2px;
+
+}
+.before-navbar span {
+	margin: 10px 10px;
+}
+
+}
+
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar {
+	background-image: linear-gradient(to right, #000000, #000000);
+	padding: 0 !important;
+}
+
+.navbar-nav li {
+	padding: 0 10px;
+	
+
+}
+
+.navbar-brand {
+	color: #fff !important;
+	
+
+}
+.navbar-brand:hover {
+	color : #e12639 !important;
+	opacity: 1;
+
+}
+.fa-bars:hover{
+	color: #e12639;
+}
+
+.navbar-nav li a {
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+
+}
+.navbar-nav li a:hover {
+	color : #e12639 !important;
+	
+}
+
+
+
+.fa-bars {
+	color: #fff;
+	font-size: 30px !important;
+}
+
+.navbar-toggler {
+	outline: none !important;
+}
+
+.pizza-homepage {
+	width: 100%;
+	height: auto;
+	z-index: 0;
+}
+
+.two-btn {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	width: 160px;
+	height: auto;
+	font-size: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 80px;
+}
+
+.btn-danger {
+	margin: 8px 0px;
+}
+
+.btn-danger a:hover {
+	color: black;
+}
+
+.chedy {
+	width: 50px;
+	height:50px;
+
+}
+
+.second-menu h1 {
+	color: #e12639;
+	text-transform: uppercase;
+}
+
+.second-menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 100px;
+}
+
+.main-menu h1 {
+	color: #e12639;
+	font-size: 80px;
+	text-decoration: underline black;
+}
+footer {
+	width: 100%;
+	background-color: #e12639;
+	position: fixed;
+	bottom: 0;
+	
+
+}
+
+.appeler, .social-media {
+	padding: 5px 0px 5px 0px ;
+	margin: 0 auto;
+
+}
+
+
+.appeler {
+	background-color: black;
+	border: 2px solid rgb(59, 56, 56);
+	display: none;
+
+}
+.social-media  {
+
+	
+
+}
+#callId {
+	border: none;
+	color: whitesmoke;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 25px;
+	
+	
+}
+.social-media a {
+	color: whitesmoke;
+	font-size: 30px;
+	padding-left: 10px;
+
+}
+#callId:hover, .social-media a:hover {
+	color: rgb(59, 56, 56)
+}
+@media all and (max-width: 992px) {
+	.appeler {
+		display: block;
+
+		}
+}
+
